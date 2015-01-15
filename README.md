@@ -13,7 +13,7 @@ Line 1: n m sizeC // where n is the number of variables, and m the number of cla
 Line 2 to m+1: a list of sizeC positive and negative numbers in the range 1 to n. If the number is negative the literal is negated
 
 Example -
-(¬x1 /\ x2)  /\ (¬x2 \/ ¬x3) /\ (¬x1 \/ x3) 
+(¬x1 /\ x2)  /\ (¬x2 \/ ¬x3) /\ (¬x1 \/ x3)
 The input file:
 Line 1: 3 3 2
 Line 2: -1 2
@@ -24,7 +24,7 @@ The solution is
 x[1]= 0
 x[2]= 1
 x[3]= 0
- The solution is 
+The solution is 
 x[1]= 0
 x[2]= 0
 Run time is 100 milliseconds
