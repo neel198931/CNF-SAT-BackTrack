@@ -1,0 +1,2 @@
+No satisfying assignment
+Run time is 77 milliseconds
