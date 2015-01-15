@@ -14,11 +14,13 @@ Line 2 to m+1: a list of sizeC positive and negative numbers in the range 1 to n
 
 Example -
 (¬x1 /\ x2)  /\ (¬x2 \/ ¬x3) /\ (¬x1 \/ x3)
+
 The input file:
 Line 1: 3 3 2
 Line 2: -1 2
 Line 3: -2 -3
 Line 4: -1 3 
+
 The output file:
 The solution is 
 x[1]= 0
@@ -28,4 +30,5 @@ The solution is
 x[1]= 0
 x[2]= 0
 Run time is 100 milliseconds
+
 Note that x[3] is insignificant for second solution and can be given any value, hence not computed.
